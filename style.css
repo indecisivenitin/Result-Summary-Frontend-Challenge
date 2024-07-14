@@ -1,0 +1,224 @@
+body{
+    min-height: 100vh;
+    background-color:black;
+  
+}
+.container{
+    background-color:white;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 1000px;
+    height: 100vh;
+    
+}
+.main-box{
+    width: 530px;
+    min-height: 360px;
+    background-color: white;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 190px;
+    border-radius: 12px;
+    display: flex;
+    /* box-shadow: 1px 1px 1px black ; */
+    box-shadow: 3px 1px 0px 1px rgba(231, 237, 251,0.5) ;
+
+}
+.left-side{
+    min-height:360px;
+    width: 265px;
+    background-image: linear-gradient(#382fec, #6340fc);
+    border-radius: 12px;
+ 
+}
+.left-side h3{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbc1ff;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 85px;
+    padding-top: 40px;
+    
+}
+.circle-container{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image:linear-gradient(#342dac, #4c39aa);
+    /* border: 2px solid black; */
+    margin-left: 63px;
+    margin-top: 30px;
+}
+.circle-container h1{
+    color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-bottom: 0%;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle-container p{
+    color:#cbc1ff;
+    padding: 0;
+    padding-left: 42px; 
+    margin-top: 0;
+    
+}
+.left-side h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 96px;
+}
+.left-side pre{
+    color: #cbc1ff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+.right{
+    min-height:360px;
+    width: 265px;
+    background-color: white;
+    border-radius: 12px;  
+}
+.right p{
+    color:#2c266e ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.reaction{
+    margin-left: 20px;
+    background-color:#fff6f5 ;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+        
+}
+.reaction img{
+    padding-right: 3px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.text{
+    color: #ff5555;
+    text-align: center;
+}
+.num1{
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303b59;
+}
+.num2{
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbc1ff;
+}
+.memory{
+    margin-left: 20px;
+    background-color:#fffbf2 ;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;  
+    margin-top: 20px;    
+}
+.memory img{
+    padding-right: 3px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.text1{
+    color: #ffb21e;
+    text-align: center;
+}
+.num3{
+    padding-left: 92px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303b59;
+}
+.num4{
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbc1ff;
+}
+.verbal{
+    margin-left: 20px;
+    background-color:#f2fbfa ;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;  
+    margin-top: 20px;    
+}
+.verbal img{
+    padding-right: 3px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.text2{
+    color: #00bb8f;
+    text-align: center;
+}
+.num5{
+    padding-left: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303b59;
+}
+.num6{
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbc1ff;
+}
+.visual{
+    margin-left: 20px;
+    background-color:#f3f3fd;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;  
+    margin-top: 20px;    
+}
+.visual img{
+    padding-right: 3px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.text3{
+    color: #1125d6;
+    text-align: center;
+}
+.num7{
+    padding-left: 106px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303b59;
+}
+.num8{
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbc1ff;
+}
+button{
+    background-color: #303b59;
+    border-radius: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    width: 220px;
+    margin-left: 22px;
+    height: 30px;
+}
+.intro{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303b59;
+}
+.intro a{
+    text-decoration: none;
+    color:#4c39aa;
+}
+a:hover{
+    color: #18143f;
+    text-decoration: underline;
+}
